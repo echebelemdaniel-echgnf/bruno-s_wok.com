@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bruno’s Wok Chinese Takeaway · Port Harcourt</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Nunito+Sans:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="hero">
+<img class="logo" alt="Bruno’s Wok Chinese Takeaway logo" src="logo.jpg">
+<h1>Hot from the wok, ready to take away.</h1>
+<p>Chinese takeaway in New GRA, Port Harcourt. Add your meals below, then send your order straight to us on WhatsApp.</p>
+<div class="cta"><a class="btn" href="https://wa.me/2349032357438?text=Hello%20Bruno%E2%80%99s%20Wok%2C%20I%E2%80%99d%20like%20to%20place%20an%20order.">Order on WhatsApp</a><a class="btn alt" href="tel:+2349032357438">Call 0903 235 7438</a></div>
+</header>
+<section class="feature">
+<img alt="Rice and small chops: spring rolls and chicken in paper cups beside a bowl of white rice" src="food.jpg">
+<div><h2>Rice and small chops</h2><p>Crispy spring rolls and glazed chicken bites in easy-to-carry cups, with a bowl of steamed rice on the side. A wooden cutlery set and napkin come with your order.</p><a class="btn" href="#menu-start" style="background:var(--red);border-color:var(--red);color:#fff">See the full menu</a></div>
+</section>
+<nav id="menu-start" aria-label="Menu categories"></nav>
+<main class="menu" id="menu"></main>
+<p class="note">Prices are in naira (₦). Tap Add on any item to build your order, or message us with any enquiry.</p>
+<footer>
+<h2>Find Bruno’s Wok</h2>
+<p>#5 Sani Abacha Road, New GRA, Port Harcourt</p>
+<p><a href="tel:+2349032357438">+234 903 235 7438</a></p>
+<p><a href="https://instagram.com/brunos_wok" rel="noopener">Instagram @brunos_wok</a></p>
+<div class="cta"><a class="btn" href="https://wa.me/2349032357438">Order on WhatsApp</a><a class="btn alt" href="https://instagram.com/brunos_wok" rel="noopener">Follow on Instagram</a></div>
+</footer>
+<button class="bar" id="bar" type="button"></button>
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-label="Your order"><div class="sheet">
+<h2>Your order <button type="button" id="x" aria-label="Close">×</button></h2>
+<div id="lines"></div><div class="tot"><span>Total</span><span id="tot"></span></div>
+<label for="nm">Your name</label><input id="nm" autocomplete="name">
+<label for="ph">Phone number</label><input id="ph" type="tel" autocomplete="tel">
+<label for="md">Pickup or delivery</label><select id="md"><option>Pickup</option><option>Delivery</option></select>
+<div id="adw" hidden><label for="ad">Delivery address</label><textarea id="ad" rows="2" autocomplete="street-address"></textarea></div>
+<label for="nt">Notes (optional)</label><textarea id="nt" rows="2" placeholder="e.g. extra spicy"></textarea>
+<p class="hint">Delivery fees are confirmed by Bruno’s Wok on WhatsApp. Payment is arranged there too.</p>
+<p class="err" id="er" role="alert"></p>
+<button class="btn" type="button" id="go">Send order on WhatsApp</button>
+</div></div>
+<script src="script.js"></script>
+</body></html>
