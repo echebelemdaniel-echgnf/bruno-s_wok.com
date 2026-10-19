@@ -1,0 +1,10 @@
+{
+  "name": "brunos-wok-site",
+  "version": "1.0.0",
+  "description": "Website and ordering backend for Bruno’s Wok Chinese Takeaway",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}

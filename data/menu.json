@@ -1,0 +1,333 @@
+{
+  "settings": {
+    "whatsapp": "2349032357438",
+    "phoneDisplay": "+234 903 235 7438",
+    "instagram": "brunos_wok",
+    "address": "#5 Sani Abacha Road, New GRA, Port Harcourt",
+    "hours": [
+      {
+        "label": "Tuesday – Sunday",
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          0
+        ],
+        "open": "11:00",
+        "close": "21:00"
+      },
+      {
+        "label": "Monday",
+        "days": [
+          1
+        ],
+        "open": "12:00",
+        "close": "17:00"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters (Dim Sum)",
+      "items": [
+        {
+          "id": "starters-1",
+          "name": "Vegetable Springrolls (3)",
+          "price": 3000,
+          "available": true
+        },
+        {
+          "id": "starters-2",
+          "name": "Sesame Prawn Toast",
+          "price": 4000,
+          "available": true
+        },
+        {
+          "id": "starters-3",
+          "name": "Pork & Shrimp Springrolls (3)",
+          "price": 4500,
+          "available": true
+        },
+        {
+          "id": "starters-4",
+          "name": "Crispy Fried Wings",
+          "price": 6000,
+          "available": true
+        },
+        {
+          "id": "starters-5",
+          "name": "Dumplings (5)",
+          "price": 6000,
+          "available": true
+        },
+        {
+          "id": "starters-6",
+          "name": "BBQ Wings",
+          "price": 6500,
+          "available": true
+        },
+        {
+          "id": "starters-7",
+          "name": "Pork Ribs (Cantonese Style)",
+          "price": 10000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": "Soups",
+      "items": [
+        {
+          "id": "soups-1",
+          "name": "Egg Drop Soup",
+          "price": 4000,
+          "available": true
+        },
+        {
+          "id": "soups-2",
+          "name": "Chicken Sweetcorn Soup",
+          "price": 4500,
+          "available": true
+        },
+        {
+          "id": "soups-3",
+          "name": "Peking Hot & Sour Soup",
+          "price": 4500,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "Noodles",
+      "items": [
+        {
+          "id": "noodles-1",
+          "name": "Singapore-Style Chilli Beef",
+          "price": 8000,
+          "available": true
+        },
+        {
+          "id": "noodles-2",
+          "name": "Singapore-Style Chilli Chicken",
+          "price": 6000,
+          "available": true
+        },
+        {
+          "id": "noodles-3",
+          "name": "Chicken Chow Mein",
+          "price": 7500,
+          "available": true
+        },
+        {
+          "id": "noodles-4",
+          "name": "Shrimp Chow Mein",
+          "price": 8000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "items": [
+        {
+          "id": "rice-1",
+          "name": "Steamed White Rice",
+          "price": 3500,
+          "available": true
+        },
+        {
+          "id": "rice-2",
+          "name": "Egg Fried Rice",
+          "price": 5000,
+          "available": true
+        },
+        {
+          "id": "rice-3",
+          "name": "Chicken Fried Rice",
+          "price": 5500,
+          "available": true
+        },
+        {
+          "id": "rice-4",
+          "name": "Pork Fried Rice",
+          "price": 5600,
+          "available": true
+        },
+        {
+          "id": "rice-5",
+          "name": "Beef Fried Rice",
+          "price": 5500,
+          "available": true
+        },
+        {
+          "id": "rice-6",
+          "name": "Special Fried Rice",
+          "price": 8500,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "items": [
+        {
+          "id": "chicken-1",
+          "name": "Chicken with Cashewnuts",
+          "price": 6850,
+          "available": true
+        },
+        {
+          "id": "chicken-2",
+          "name": "Chicken in Chilli Sauce",
+          "price": 6850,
+          "available": true
+        },
+        {
+          "id": "chicken-3",
+          "name": "Garlic Chicken",
+          "price": 6850,
+          "available": true
+        },
+        {
+          "id": "chicken-4",
+          "name": "Chicken Katsu Curry",
+          "price": 7000,
+          "available": true
+        },
+        {
+          "id": "chicken-5",
+          "name": "Chicken Sweet & Sour",
+          "price": 7000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "items": [
+        {
+          "id": "beef-1",
+          "name": "Shredded Beef in Oyster Sauce",
+          "price": 7000,
+          "available": true
+        },
+        {
+          "id": "beef-2",
+          "name": "Beef in Chilli Sauce",
+          "price": 7000,
+          "available": true
+        },
+        {
+          "id": "beef-3",
+          "name": "Beef Katsu Curry",
+          "price": 7000,
+          "available": true
+        },
+        {
+          "id": "beef-4",
+          "name": "Beef and Broccoli",
+          "price": 7000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "items": [
+        {
+          "id": "pork-1",
+          "name": "Pork in Chilli Sauce",
+          "price": 6850,
+          "available": true
+        },
+        {
+          "id": "pork-2",
+          "name": "Pork with Vegetables",
+          "price": 6850,
+          "available": true
+        },
+        {
+          "id": "pork-3",
+          "name": "Pork Katsu Curry",
+          "price": 7000,
+          "available": true
+        },
+        {
+          "id": "pork-4",
+          "name": "Pork Sweet & Sour",
+          "price": 7000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "items": [
+        {
+          "id": "fish-1",
+          "name": "Fish Fillet in Oyster Sauce",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "fish-2",
+          "name": "Fish Fillet in Chilli Sauce",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "fish-3",
+          "name": "Fish Fillet with Ginger & Scallion",
+          "price": 9000,
+          "available": true
+        },
+        {
+          "id": "fish-4",
+          "name": "Fish Fillet Sweet & Sour",
+          "price": 9000,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "items": [
+        {
+          "id": "drinks-1",
+          "name": "Water 500",
+          "price": 1000,
+          "available": true
+        },
+        {
+          "id": "drinks-2",
+          "name": "Coca Cola",
+          "price": 1000,
+          "available": true
+        },
+        {
+          "id": "drinks-3",
+          "name": "Fanta",
+          "price": 1000,
+          "available": true
+        },
+        {
+          "id": "drinks-4",
+          "name": "Sprite",
+          "price": 1000,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin · Bruno’s Wok</title>
+<link rel="stylesheet" href="admin.css">
+</head><body>
+<main>
+<section id="login"><h1>Bruno’s Wok admin</h1>
+<form id="lf"><label for="pw">Password</label><input id="pw" type="password" autocomplete="current-password" required>
+<button type="submit">Log in</button><p id="le" class="err" role="alert"></p></form></section>
+<section id="app" hidden>
+<header><h1>Bruno’s Wok admin</h1><button type="button" id="out">Log out</button></header>
+<div class="tabs" role="tablist"><button type="button" role="tab" id="t1" aria-selected="true">Orders</button><button type="button" role="tab" id="t2" aria-selected="false">Menu</button></div>
+<div id="orders"><div class="bar"><label for="flt">Show</label><select id="flt"></select><span id="cnt" aria-live="polite"></span></div><div id="olist"></div>
+<p class="muted" id="ret"></p></div>
+<div id="menu" hidden><p class="muted">Change a price or mark a dish as sold out. Changes go live straight away.</p><div id="mlist"></div></div>
+</section>
+</main>
+<script src="admin.js"></script>
+</body></html>
